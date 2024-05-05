@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="website" class="hidden">
+        <div class="container">
+            <h1 class="fade-in">Answer The Following Question Please!</h1>
+            <p class="fade-in">Who are you to me?</p>
+            <input type="text" id="answerInput" class="fade-in" placeholder="Enter your name">
+            <button onclick="checkAnswer()" class="fade-in">Submit</button>
+        </div>
+
+        <div id="birthdayWish" class="hidden">
+            <h2 class="wish-text fade-in">🎉 Happy Birthday My Dear Chotisi👩🥰, <span id="nameSpan"></span>! 🎉</h2>
+            <p class="wish-details fade-in">❤💕</p>
+        </div>
+
+        <div id="teddyBearContainer" class="hidden">
+            <img src="teddy-bear.png" alt="Teddy Bear" class="teddy-bear">
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p class="fade-in">I didn't expect this from you.</p>
+        </div>
+    </div>
+
+    <!-- Container for the fireworks -->
+    <div id="fireworksContainer" class="hidden"></div>
+    <div class="loader">
+  <div class="box box0">
+    <div></div>
+  </div>
+  <div class="box box1">
+    <div></div>
+  </div>
+  <div class="box box2">
+    <div></div>
+  </div>
+  <div class="box box3">
+    <div></div>
+  </div>
+  <div class="box box4">
+    <div></div>
+  </div>
+  <div class="box box5">
+    <div></div>
+  </div>
+  <div class="box box6">
+    <div></div>
+  </div>
+  <div class="box box7">
+    <div></div>
+  </div>
+  <div class="ground">
+    <div></div>
+  </div>
+</div>
+   <div class="🤚">
+	<div class="👉"></div>
+	<div class="👉"></div>
+	<div class="👉"></div>
+	<div class="👉"></div>
+	<div class="🌴"></div>
+	<div class="👍"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
